@@ -29,7 +29,7 @@ void bubble_sort(int *array, size_t size)
 		 * (size - j) - 1 cos after every iteration,
 		 * the (size - j)th element is in its rightful place.
 		 */
-		for (i = 0; i < (size - j) - 1; i++)
+		for (i = 0; i < size - 1; i++)
 		{
 			if (array[i] > array[i + 1])
 			{
