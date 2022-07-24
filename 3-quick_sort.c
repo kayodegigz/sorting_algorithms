@@ -76,11 +76,11 @@ void quick_sort(int *array, size_t size)
   if (low < high)
   {
     int pi = partition(array, low, high);
-    high = pi - 1
+    high = pi - 1;
     /* recursive call on the left of pivot */
     quick_sort(array, size);
     
-    low = pi + 1
+    low = pi + 1;
     /* recursive call on the right of pivot */
     quick_sort(array, size);
   }
